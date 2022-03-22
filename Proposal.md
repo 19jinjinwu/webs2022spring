@@ -6,10 +6,18 @@ At the top I have my socials and contact, including a link to my resume and Link
 
 ![IMG_7324](https://user-images.githubusercontent.com/71570477/156233031-24e3f07c-3927-4c49-99a1-391a7a023de8.jpg)
 
+
+# Updated Proposal
+
+Since I already have a portfolio of my own, I thought it would be more interesting to create a cat cafe website. It has a similar setup to my portfolio, with a navbar for the pages at the top, a hero image with a title, and clickable boxes at the bottom featuring the cats that are adoptable. The only difference is that there will be a reservation form instead of the about section, and possibly inner pages to the menu, cats, about, and contact depending on time.
+
 # Asset List
 
 |Assets| Source| License |
 |--------|--------|--------|
-|LinkedIn logo | https://thenounproject.com/icon/linkedin-2386251/|...|
-|Contact logo | https://thenounproject.com/icon/mail-1571628/|...|
-|Resume logo (edit with word)|https://thenounproject.com/icon/resume-1219288/|...|
+|Cat logo | https://thenounproject.com/icon/happy-cat-125704/|CC Attribute, Matthew Davis|
+|Cat hero gif| https://www.motionelements.com/stock-image-18823162-cat-playing-at-home?query_id=solr_a37c822b69c64cf489ef3bb6f4826153&position=39|Royalty Free, Commerical|
+|Maine Coon|https://unsplash.com/photos/uhnbTZC7N9k|CC 0,Zoë Gayah Jonker|
+|Siamese|https://unsplash.com/photos/KGiQFgF7dkc|CC 0, Alex Meier|
+|Russian Blue|https://unsplash.com/photos/0TPAlZ87mzk|CC 0, Milada Vigerova|
+|Tuxedo|https://unsplash.com/photos/lwtyu-Ccwvs|CC 0, Luku Muffin|
