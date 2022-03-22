@@ -8,26 +8,106 @@
   <body>
     <header class="top-header">
       <div class="content-header">
-        <a href="/"><img src="images/cat-logo.svg" alt="logo"></a>
-        <nav class="main-nav" id="main-nav">
-          <div class="sidebar">
-            <ul>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <nav class="main-nav">
+            <ul class="nav-list">
               <li class="active"><a href="/index.html">Home</a></li>
               <li><a href="/cats.html">Our Cats</a></li>
               <li><a href="/menu.html">Menu</a></li>
               <li><a href="/contact.html">Contact</a></li>
             </ul>
-          </div>
         </nav>
       </div>
     </header>
   <div class="main-content">
-    <div class="hero-image">
-      <img src="images/" alt="background image">
-    </div>
+    <div class="container">
+        <img src="images/hero-gif.gif" alt="background image">
+        <div class="hero-text">
+          <h1>Whipped Whiskers</h1>
+          <p>Cat Santuary and Cafe</p>
+        </div>
+      </div>
+    <section class="reservation">
+      <div class="reservation-content">
+        <h2>Make Your Reservation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+          ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+          Perspiciatis.
+          </p>
+      </div>
+      <div class="booking-form">
+        <form>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+          </div>
+          <div class="form-row inlined">
+            <label for="people">People</label>
+            <input type="number" id="people" max="8">
+          </div>
+          <div class="form-row inlined">
+            <label for="time">Time</label>
+            <input type="time" list="times" value="00:00" id="time" step="3600">
+            <datalist id="times">
+              <option value="10:00:00">
+              <option value="11:00:00">
+              <option value="12:00:00">
+              <option value="13:00:00">
+              <option value="14:00:00">
+              <option value="15:00:00">
+              <option value="16:00:00">
+              <option value="17:00:00">
+              <option value="18:00:00">
+            </datalist>
+          </div>
+          <div class="form-row">
+            <button class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="container-2">
+      <h3>Featured Cats</h3>
+      <p><a href="/cats.html" class="btn dark">And More</a></p>
+      <div class="cats-row">
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/maine.jpg" alt="Graham"></a>
+          <div class="cat-info">
+            <h3>Graham</h3>
+            <p>Maine Coon, 4 years old</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/russian.jpg" alt="Cinder"></a>
+          <div class="cat-info">
+            <h3>Cinder</h3>
+            <p>Russian Blue, 5 years old</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/siamese.jpg" alt="Sky"></a>
+          <div class="cat-info">
+            <h3>Sky</h3>
+            <p>Siamese, 3 years old</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/tuxedo.jpg" alt="Louis"></a>
+          <div class="cat-info">
+            <h3>Louis</h3>
+            <p>Tuxedo, 4 years old</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-      Reservations
-      About
-    </div>
   </body>
 </html>
