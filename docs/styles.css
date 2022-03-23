@@ -1,5 +1,37 @@
+@font-face {
+    font-family: 'The Whisker';
+    src: url('the-whisker.ttf') format('woff');
+  }
+
+@font-face {
+    font-family: 'Mensch';
+    src: url('mensch.ttf') format('woff');
+  }
+
 *{
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "The Whisker";
+    color:#fff;
+    font-size: 8vw;
+    margin: 0px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px #000000;
+    padding-bottom: 2%;
+}
+
+h3{
+    font-family: "Mensch";
+    color:#000000;
+    font-size: 5vw;
+    padding-top: 2%;
+    
 }
 
 body{
@@ -7,6 +39,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-color: #e7e2dc;
 
 }
 
@@ -29,6 +62,8 @@ body{
     height: 10vw;
     max-height: 99px;
     padding-left: 10px;
+    filter: invert(1);
+    
 }
 
 .main-nav{
@@ -40,91 +75,213 @@ body{
     list-style: none;
     justify-content: space-around;
     align-items: center;
+
 }
 
-
-.container img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    left: 0;
-    top: 0;
-}
-
-.container{
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    margin: 0;
+video{
     position: relative;
+    object-fit: cover;
+    width: 100vw;
+    height: 55vw;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
 }
 
-
-.hero-text{
-    text-align: center;
+.hero-content{
+    margin-top: 10%;
+    align-items: center;
     position: absolute;
-    color: #fff;
+    top: 80px;
+    width: 100vw;
+    left:50%;
+    margin-left: calc(-50vw);
+    text-align: center;
+    z-index: 1;
 }
 
 
-.reservation {
+
+.container {
     background-image: url(images/cat-reserve.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 55vw;
     max-width: 100%;
     max-height: 100%;
     display: flex;
     align-items: center;
+    color: rgb(0, 0, 0, .8);
 }
 
-.reservation-content{
-    margin: 175px;
+.hero-content{
+    width:100%;
+    align-items: center;
+    text-align: center
+
 }
 
-.reservation-content > h2 {
-    color: #fff
+
+.btn-main{
+    font-size: 2vw;
+    font-family:'Mensch';
+    margin: 0px;
+    color:#fff;
+    padding: 20px;
+    text-shadow: 1px 1px #000000;
+    box-shadow: 2px 2px #000000;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4%;
+    
 }
 
-.reservation-content > p {
-    color: #fff
+.btn-main:hover {
+    transition: 1s ease-in-out;
+    background: #fff;
+    color:#000000;
+  }
+
+.container-2 > p{
+    margin-bottom: 10%;
 }
 
-form {
-    padding: 100px;
+.light {
+    color:#000000;
+    text-shadow: none;
+    box-shadow: none;
+    border-color: #000000;
 }
+
+.light:hover {
+    transition: 1s ease-in-out;
+    background: #000000;
+    color:#fff;
+  }
+
+
+.center > h2{
+    font-family: "Mensch";
+    color: #fff;
+    font-size: 5vw;
+    letter-spacing: 4px;
+    margin: 10% 0;
+    text-shadow: 3px 3px #000000;
+}
+
+p{
+    font-family: "Mensch";
+    color: #fff;
+}
+
 
 .container-2 {
     position: relative;
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
-    padding: 20px 0px;
     text-align: center;
+    padding-bottom: 10%;
+}
+
+.r-content {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    text-align: left;
+    height: 100%
+}
+
+.center{
+    padding: 50px;
 }
 
 .cats-row{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     margin: 0;
+    
+
 }
 
-
 .cat-card{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.cat-info > h3{
+    color:#fff;
+    font-size: 2.5em;
+    background: #000000;
+    margin: 0px;
+    padding: 5% 0px;
+    font-style:italic;
+}
+
+.cat-info > p{
+    font-size: 1.5em;
+    background: #0000006b;
+    margin: 0px;
+    padding: 3% 0px;
+    font-style:italic;
+    flex-basis: 100%;
 
 }
 
 .cat-card img{
-    flex: display;
+    display: flex;
     max-height: 70vh;
     width: 100%;
+}
+
+.booking-form{
+    width: 100vw;
+    color: #333;
 
 }
+
+
+.form-row{
+    padding: 1% 70px;
+    position: relative;
+    
+}
+
+label{
+    display: block;
+    padding-bottom: 2%;
+    font-family: "Mensch";
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.btn-form{
+
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+    padding: 17px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.submit-btn {
+    color: #fff;
+    background-color:rgba(0,0,0,0.75);
+    height: 60px;
+    padding: 10px 40px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
