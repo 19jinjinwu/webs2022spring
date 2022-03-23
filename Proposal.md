@@ -16,8 +16,12 @@ Since I already have a portfolio of my own, I thought it would be more interesti
 |Assets| Source| License |
 |--------|--------|--------|
 |Cat logo | https://thenounproject.com/icon/happy-cat-125704/|CC Attribute, Matthew Davis|
-|Cat hero gif| https://www.motionelements.com/stock-image-18823162-cat-playing-at-home?query_id=solr_a37c822b69c64cf489ef3bb6f4826153&position=39|Royalty Free, Commerical|
+|Cat hero video| https://www.pexels.com/video/a-cat-on-the-floor-looking-curiously-at-the-camera-4147614/|Pexels License, Natasha Filippovskaya|
 |Maine Coon|https://unsplash.com/photos/uhnbTZC7N9k|CC 0,Zoë Gayah Jonker|
 |Siamese|https://unsplash.com/photos/KGiQFgF7dkc|CC 0, Alex Meier|
 |Russian Blue|https://unsplash.com/photos/0TPAlZ87mzk|CC 0, Milada Vigerova|
 |Tuxedo|https://unsplash.com/photos/lwtyu-Ccwvs|CC 0, Luku Muffin|
+|The Whisker (font)|https://www.dafont.com/the-whisker.font| Personal Use, Octotype/Thomas Boucherie|
+|Mensch (font)|https://www.dafont.com/mensch.font| Personal Use, Eko Bimantara|
+
+Inspiration: nekocatcafe.com
