@@ -30,7 +30,7 @@ h1{
     margin: 0px;
     letter-spacing: 3px;
     text-shadow: 3px 3px #000000;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 h3{
@@ -68,6 +68,7 @@ body{
     display: inline-block;
     height: 10vw;
     max-height: 99px;
+    padding-top: 10px;
     padding-left: 10px;
     filter: invert(1);
     
@@ -86,11 +87,10 @@ body{
     font-family:'Mensch';
     margin: 0px;
     
-  
 }
 
 li{
-    padding: 20px;
+    padding: 2vw;
     color: #fff;
 }
 
@@ -108,12 +108,12 @@ video{
     margin-top: 10%;
     align-items: center;
     position: absolute;
-    top: 80px;
+    top: 13vw;
     width: 100vw;
     left:50%;
     margin-left: calc(-50vw);
     text-align: center;
-    z-index: 1;
+
 }
 
 
@@ -144,13 +144,13 @@ video{
     font-family:'Mensch';
     margin: 0px;
     color:#fff;
-    padding: 20px;
+    padding: 2%;
     text-shadow: 1px 1px #000000;
     box-shadow: 2px 2px #000000;
     border-color: rgb(255, 255, 255);
-    border-width: 2px;
+    border-width:.2vw;
     border-style: solid;
-    border-radius: 4%;
+    border-radius: 1%;
     
 }
 
@@ -219,33 +219,35 @@ p{
 .cats-row{
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     padding:  0 15px;
     grid-gap: 15px;
 
 }    
 
 .cat-card{
-      background-color: #0000008c;
+      background-color: #0000007a;
+      box-shadow: rgb(0, 0, 0) 0px 12px 10px -10px;
 
 }
   
 .cat-card img{
-    height: 40vh;
     width: 100%;
     object-fit:cover;
+    max-height: 55vh;
 }
 
 .cat-info > h3{
     margin: 0px;
     padding: 5% 0px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .cat-info > p{
     background: #000000;
     margin: 0px;
     padding: 5% 0px;
+    font-size: 1.5em;
 
 }
 
@@ -284,15 +286,16 @@ label{
 }
 
 .submit-btn {
+    font-family: "Mensch";
     color: #fff;
+    letter-spacing: 2px;
     background-color:rgba(0,0,0,0.75);
     height: 60px;
-    padding: 10px 40px;
     width: 100%;
     border-radius: 40px;
     border: none;
     text-transform: uppercase;
-    font-size: 1em;
     margin-top: 20px;
+    font-size: 1.25em;
 }
 
