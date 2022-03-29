@@ -1,3 +1,6 @@
+# Description
+This website project is designed for a (fictional) cat cafe called Whipped Whiskers. Here, you are able to order a cup of coffee for an afternoon lunch, play with cats in the cat room, and possible adopt a cat! Whipped Whiskers is a cat sanctuary for cats that were brought in from the streets, cat shelters, or had no other place to go. The website was designed in order to not only introduce visitors to the cafe, but also learn more about the cats that have arrived at their temporary home. I hope to create a comfortable and cozy environment through the website's style, so that viewers will be enticed to visit, and give a cat their forever home.
+
 # Proposal
 
 I plan to create a website portfolio for future employers, showcasing my artistic and design work.
