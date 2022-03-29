@@ -14,6 +14,13 @@
 
 a{
     text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+}
+
+.menu:hover{
+    transition: ease-in;
+    text-decoration: underline;
 }
 
 h1{
@@ -75,7 +82,16 @@ body{
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    font-size: 2vw;
+    font-family:'Mensch';
+    margin: 0px;
+    
+  
+}
 
+li{
+    padding: 20px;
+    color: #fff;
 }
 
 video{
@@ -199,43 +215,38 @@ p{
     padding: 50px;
 }
 
-.cats-row{
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin: 0;
-    
 
-}
+.cats-row{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding:  0 15px;
+    grid-gap: 15px;
+
+}    
 
 .cat-card{
-    display: flex;
-    flex-direction: column;
+      background-color: #0000008c;
+
+}
+  
+.cat-card img{
+    height: 40vh;
+    width: 100%;
+    object-fit:cover;
 }
 
 .cat-info > h3{
-    color:#fff;
-    font-size: 2.5em;
-    background: #000000;
     margin: 0px;
     padding: 5% 0px;
-    font-style:italic;
+    font-size: 2em;
 }
 
 .cat-info > p{
-    font-size: 1.5em;
-    background: #0000006b;
+    background: #000000;
     margin: 0px;
-    padding: 3% 0px;
-    font-style:italic;
-    flex-basis: 100%;
+    padding: 5% 0px;
 
-}
-
-.cat-card img{
-    display: flex;
-    max-height: 70vh;
-    width: 100%;
 }
 
 .booking-form{
@@ -262,12 +273,12 @@ label{
 }
 
 .btn-form{
-
-    background-color: rgba(255, 255, 255, 0.3);
+    font-family: "Mensch";
+    background-color: #00000041;
+    letter-spacing: 2px;
     width: 100%;
     height: 100%;
     padding: 17px;
-    border: none;
     border-radius: 40px;
     color: #fff;
 }
