@@ -4,110 +4,145 @@
     <meta charset="utf-8">
     <title>Cafe Whiskers</title>
     <link rel='stylesheet' href='styles.css'/>
+
   </head>
   <body>
+    <!--Header-->
     <header class="top-header">
       <div class="content-header">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a href="index.html"><img src="images/logo.png" alt="logo"S></a>
         <nav class="main-nav">
             <ul class="nav-list">
-              <li><a class="menu" href="/index.html">Home</a></li>
-              <li><a class="menu" href="/cats.html">Our Cats</a></li>
-              <li><a class="menu" href="/menu.html">Menu</a></li>
-              <li><a class="menu" href="/contact.html">Contact</a></li>
+              <li><a class="menu" href="index.html">Home</a></li>
+              <li><a class="menu" href="#cats.html">Our Cats</a></li>
+              <li><a class="menu" href="#menu.html">Menu</a></li>
+              <!--<li><a class="menu" href="#contact.html">Contact</a></li>-->
+              <li><button type="button" class="btn" id="c-btn">Contact</button></li>
             </ul>
         </nav>
       </div>
     </header>
-  <div class="hero">
-        <video src="images/hero1.mp4" autoplay loop muted playsinline></video>
-        <div class="hero-content">
-          <h1>Whipped Whiskers</h1>
-          <a href="#reservation" class="btn-main">Reservations</a>
-        </div>
-  </div>
-      <section class="container-2">
-        <h3>Featured Cats</h3>
-        <p><a href="/cats.html" class="btn-main light">And More</a></p>
-        <div class="cats-row">
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/maine.jpg" alt="Graham"></a>
-            <div class="cat-info">
-              <h3>Graham</h3>
-              <p>Maine Coon, 4 years old</p>
-            </div>
+
+    <!--Hero Image and Title -->
+    <div class="hero">
+          <video src="images/hero1.mp4" autoplay loop muted playsinline></video>
+          <div class="hero-content">
+            <h1>Whipped Whiskers</h1>
+            <a href="#reservation" class="btn-main">Reservations</a>
           </div>
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/russian.jpg" alt="Cinder"></a>
-            <div class="cat-info">
-              <h3>Cinder</h3>
-              <p>Russian Blue, 5 years old</p>
-            </div>
-          </div>
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/siamese.jpg" alt="Sky"></a>
-            <div class="cat-info">
-              <h3>Sky</h3>
-              <p>Siamese, 3 years old</p>
-            </div>
-          </div>
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/tuxedo.jpg" alt="Louis"></a>
-            <div class="cat-info">
-              <h3>Louis</h3>
-              <p>Tuxedo, 4 years old</p>
-            </div>
-          </div>
-        </div>
-      </section> 
-      <section class="container" id="reservation">
-        <div class="container-content r-content">
-          <div class= "center">
-          <h2>Reservations</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-            ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-            Perspiciatis.</p>
+    </div>
+    
+    
+    
+    <div id="contact">
+      <form action="#">
+        <ul class ="contact-form">
+          <h1>Contact Us</h1>
+          <li>
+            <input class="contact-label" type="text" name="name" id="name" placeholder="&#xf2c0; Full name">
+          </li>
+          <li>
+            <input class="contact-label"type="email" name="email" id="email" placeholder="&#xf003; Email">
+          </li>
+          <li>
+            <textarea name="message" id="message" placeholder="&#xf040; Your message"></textarea>
+          </li>
+          <li>
+            <input type="submit" value="Send message" class="submit-btn send" id="submit">
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <!--Featured Cats-->
+    <section class="container-2">
+      <h3>Featured Cats</h3>
+      <p><a href="#cats.html" class="btn-main light">And More</a></p>
+      <div class="cats-row">
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/maine.jpg" alt="Graham"></a>
+           <div class="cat-info">
+            <h3>Graham</h3>
+            <p>Maine Coon, 4 years old</p>
           </div>
         </div>
-        <div class="booking-form">
-          <form>
-            <div class="form-row">
-              <label for="name">Name</label>
-              <input class = "btn-form" type="text" id="name">
-            </div>
-            <div class="form-row">
-              <label for="email">Email</label>
-              <input  class = "btn-form"type="email" id="email">
-            </div>
-            <div class="form-row">
-              <label for="phone">Phone</label>
-              <input class = "btn-form" type="tel" id="phone">
-            </div>
-            <div class="form-row">
-              <label for="people">People</label>
-              <input  class = "btn-form"type="number" id="people" min="1" max="8">
-            </div>
-            <div class="form-row">
-              <label for="time">Time</label>
-              <input  class = "btn-form" type="time" list="times" value="00:00" id="time" step="3600">
-              <datalist id="times">
-                <option value="10:00:00">
-                <option value="11:00:00">
-                <option value="12:00:00">
-                <option value="13:00:00">
-                <option value="14:00:00">
-                <option value="15:00:00">
-                <option value="16:00:00">
-                <option value="17:00:00">
-                <option value="18:00:00">
-              </datalist>
-            </div>
-            <span></span>
-            <div class="form-row">
-              <button class="submit-btn">Submit</button>
-            </div>
-          </form>
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/russian.jpg" alt="Cinder"></a>
+          <div class="cat-info">
+            <h3>Cinder</h3>
+            <p>Russian Blue, 5 years old</p>
+          </div>
         </div>
-      </section>
+        <div class="cat-card">
+           <a href="/cats.html"><img src="images/siamese.jpg" alt="Sky"></a>
+            <div class="cat-info">
+            <h3>Sky</h3>
+            <p>Siamese, 3 years old</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <a href="/cats.html"><img src="images/tuxedo.jpg" alt="Louis"></a>
+          <div class="cat-info">
+            <h3>Louis</h3>
+            <p>Tuxedo, 4 years old</p>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!--Reservations-->
+    <section class="container" id="reservation">
+      <div class="container-content r-content">
+        <div class= "center">
+        <h2>Reservations</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+          ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+          Perspiciatis.</p>
+        </div>
+      </div>
+      <!--Reservation form-->
+      <div class="booking-form">
+        <form>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input class = "btn-form" type="text" id="name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input  class = "btn-form"type="email" id="email">
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input class = "btn-form" type="tel" id="phone">
+          </div>
+          <div class="form-row">
+            <label for="people">People</label>
+            <input  class = "btn-form"type="number" id="people" min="1" max="8">
+          </div>
+          <div class="form-row">
+            <label for="time">Time</label>
+            <input  class = "btn-form" type="time" list="times" value="00:00" id="time" step="3600">
+            <datalist id="times">
+              <option value="10:00:00">
+              <option value="11:00:00">
+              <option value="12:00:00">
+              <option value="13:00:00">
+              <option value="14:00:00">
+              <option value="15:00:00">
+              <option value="16:00:00">
+              <option value="17:00:00">
+              <option value="18:00:00">
+            </datalist>
+          </div>
+          <span></span>
+          <div class="form-row">
+            <button class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script  src="function.js"></script>
   </body>
 </html>
