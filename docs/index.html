@@ -32,8 +32,8 @@
           </div>
     </div>
     
-    
-    
+
+    <!--Contact Form -->
     <div id="contact">
       <form action="#">
         <ul class ="contact-form">
@@ -48,7 +48,7 @@
             <textarea name="message" id="message" placeholder="&#xf040; Your message"></textarea>
           </li>
           <li>
-            <input type="submit" value="Send message" class="submit-btn send" id="submit">
+            <input type="submit" value="Send message" class="submit-btn send" id="submit" onclick="return confirm('Message Sent')">
           </li>
         </ul>
       </form>
@@ -117,26 +117,26 @@
           </div>
           <div class="form-row">
             <label for="people">People</label>
-            <input  class = "btn-form"type="number" id="people" min="1" max="8">
+            <input class="btn-form" type="number" id="people" min="1" max="8">
           </div>
           <div class="form-row">
             <label for="time">Time</label>
-            <input  class = "btn-form" type="time" list="times" value="00:00" id="time" step="3600">
-            <datalist id="times">
-              <option value="10:00:00">
-              <option value="11:00:00">
-              <option value="12:00:00">
-              <option value="13:00:00">
-              <option value="14:00:00">
-              <option value="15:00:00">
-              <option value="16:00:00">
-              <option value="17:00:00">
-              <option value="18:00:00">
-            </datalist>
+            <select class="btn-form">
+              <option style="display:none;"></option>
+              <option value="10:00">10:00 AM</option>
+              <option value="11:00">11:00 AM</option>
+              <option value="12:00">12:00 PM</option>
+              <option value="13:00">1:00 PM</option>
+              <option value="14:00">2:00 PM</option>
+              <option value="15:00">3:00 PM</option>
+              <option value="16:00">4:00 PM</option>
+              <option value="17:00">5:00 PM</option>
+              <option value="18:00">6:00 PM</option>
+           </select>
           </div>
           <span></span>
           <div class="form-row">
-            <button class="submit-btn">Submit</button>
+            <button class="submit-btn" onclick="return confirm('Reservation Confirmed')">Submit</button>
           </div>
         </form>
       </div>
@@ -145,4 +145,10 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script  src="function.js"></script>
   </body>
+  <footer>
+    <div class="foot">
+      <p>Created by Jin Jin Wu</p>
+      <p>Asset List in ReadMe.md</p>
+    </div>
+  </footer>
 </html>

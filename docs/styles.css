@@ -138,6 +138,10 @@ video{
 
 }
 
+select{
+
+    appearance: none;
+}
 
 .btn-main{
     font-size: 2vw;
@@ -151,7 +155,7 @@ video{
     border-width:.2vw;
     border-style: solid;
     border-radius: 1%;
-    
+
 }
 
 .btn-main:hover {
@@ -301,7 +305,6 @@ label{
 }
 
 
-
 #contact {
     background: rgba(255, 255, 255, 0.85);
     position: absolute;
@@ -411,6 +414,20 @@ textarea{
     cursor: pointer;
     font-size:3.5vw;
     color: #000000
+}
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: .5vw 1vw;
+    font-size: .7vw;
+}
+
+.foot > p{
+    color:#0000007a;
+    font-weight: bold;
+    font-style: italic;
 }
 
 @media screen and (min-width: 1200px){
