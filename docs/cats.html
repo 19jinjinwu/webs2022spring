@@ -20,43 +20,75 @@
           </nav>
         </div>
     </header>
-    <section class="container-2">
-        <div class = "tab2">
+    <section class="container-2 shrink">
+        <div class = "heading 2 tab2">
             <h3>Featured Cats</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-                Perspiciatis.</p>
+            <p>Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Egestas maecenas pharetra convallis posuere morbi leo urna molestie. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Sed risus ultricies tristique nulla aliquet enim.</p>
         </div>
-        <div class="cats-row">
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/maine.jpg" alt="Graham"></a>
-             <div class="cat-info">
+        <div class="cats-row block">
+          <div class="cat-card describe" id="Graham">
+            <img src="images/maine.jpg" alt="Graham">
+             <div class="cat-info extend">
               <h3>Graham</h3>
-              <p>Maine Coon, 4 years old</p>
+              <p>Augue lacus viverra vitae congue eu consequat. Elementum curabitur vitae nunc sed velit. Dui faucibus in ornare quam. Magnis dis parturient montes nascetur ridiculus mus. Massa vitae tortor condimentum lacinia quis vel. Tincidunt praesent semper feugiat nibh sed pulvinar. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor.</p>
             </div>
           </div>
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/russian.jpg" alt="Cinder"></a>
-            <div class="cat-info">
+          <div class="cat-card describe" id="Cinder">
+            <img src="images/russian.jpg" alt="Cinder">
+            <div class="cat-info extend">
               <h3>Cinder</h3>
-              <p>Russian Blue, 5 years old</p>
+              <p>Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Mauris in aliquam sem fringilla ut. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Ultrices sagittis orci a scelerisque. Urna id volutpat lacus laoreet non curabitur gravida arcu ac. </p>
             </div>
           </div>
-          <div class="cat-card">
-             <a href="/cats.html"><img src="images/siamese.jpg" alt="Sky"></a>
-              <div class="cat-info">
+          <div class="cat-card describe" id="Sky">
+             <img src="images/siamese.jpg" alt="Sky">
+              <div class="cat-info extend">
               <h3>Sky</h3>
-              <p>Siamese, 3 years old</p>
+              <p>Risus feugiat in ante metus dictum. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. Posuere urna nec tincidunt praesent. Elementum facilisis leo vel fringilla est ullamcorper eget. Sem integer vitae justo eget magna fermentum iaculis eu.</p>
             </div>
           </div>
-          <div class="cat-card">
-            <a href="/cats.html"><img src="images/tuxedo.jpg" alt="Louis"></a>
-            <div class="cat-info">
+          <div class="cat-card describe" id="Louis">
+            <img src="images/tuxedo.jpg" alt="Louis">
+            <div class="cat-info extend">
               <h3>Louis</h3>
-              <p>Tuxedo, 4 years old</p>
+              <p>Diam ut venenatis tellus in metus vulputate. Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Ut aliquam purus sit amet luctus. Vestibulum lorem sed risus ultricies tristique nulla aliquet. Tristique sollicitudin nibh sit amet. Vel quam elementum pulvinar etiam non.</p>
             </div>
           </div>
         </div>
       </section> 
+
+      <!--Contact Form -->
+    <div id="contact">
+      <form action="#" class="v2">
+        <ul class ="contact-form">
+          <h1>Contact Us</h1>
+          <li>
+            <input class="contact-label" type="text" name="name" id="name" placeholder="&#xf2c0; Full name">
+          </li>
+          <li>
+            <input class="contact-label"type="email" name="email" id="email" placeholder="&#xf003; Email">
+          </li>
+          <li>
+            <textarea name="message" id="message" placeholder="&#xf040; Your message"></textarea>
+          </li>
+          <li>
+            <input type="submit" value="Send message" class="submit-btn send" id="submit" onclick="return confirm('Message Sent')">
+          </li>
+        </ul>
+      </form>
+    </div>
+
+      <!--Contact form display-->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script  src="function.js"></script>
   </body>
+
+  
+    <!--Footer-->
+    <footer>
+      <div class="foot ver2">
+        <p>Created by Jin Jin Wu</p>
+        <p>Asset List in ReadMe.md</p>
+      </div>
+    </footer>
 </html>
