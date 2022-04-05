@@ -8,6 +8,11 @@
     src: url('mensch.ttf') format('woff');
   }
 
+@font-face {
+    font-family:'Miso' ;
+    src: url('miso.otf') format('woff');
+}
+
 *{
     box-sizing: border-box;
 }
@@ -36,8 +41,9 @@ h1{
 h3{
     font-family: "Mensch";
     color:#000000;
-    font-size: 5vw;
-    padding-top: 2%;
+    font-size: 4vw;
+    padding: 3%;
+    margin: 0;
     
 }
 
@@ -54,7 +60,7 @@ body{
     position: absolute;
     z-index: 1000;
     overflow: hidden;
-    width:99vw;
+    width:100vw;
 }
 
 .content-header{
@@ -68,8 +74,8 @@ body{
     display: inline-block;
     height: 10vw;
     max-height: 99px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: .4vw;
+    padding-left: .5vw;
     filter: invert(1);
     
 }
@@ -192,8 +198,10 @@ select{
 }
 
 p{
-    font-family: "Mensch";
+    font-family: "Miso";
+    font-size: 1.5vw;
     color: #fff;
+    padding-bottom: 4%;
 }
 
 
@@ -251,7 +259,7 @@ p{
     background: #000000;
     margin: 0px;
     padding: 5% 0px;
-    font-size: 1.5em;
+    font-size: 2.5vw;
 
 }
 
@@ -279,7 +287,8 @@ label{
 }
 
 .btn-form{
-    font-family: "Mensch";
+    font-family: "Miso";
+    font-size: 1.5vw;
     background-color: #00000041;
     letter-spacing: 2px;
     width: 100%;
@@ -300,7 +309,7 @@ label{
     border: none;
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: 1.25em;
+    font-size: 2.5vw;
     cursor: pointer;
 }
 
@@ -425,10 +434,21 @@ textarea{
 }
 
 .foot > p{
+    font-size: 1.25em;
     color:#0000007a;
     font-weight: bold;
     font-style: italic;
 }
+
+.dark{
+    background-color: #000000;
+    position: fixed;
+}
+
+.tab2{
+    padding-top: 15vw;
+}
+
 
 @media screen and (min-width: 1200px){
     .cats-row{
@@ -457,4 +477,6 @@ textarea{
         max-height: 35vw;
 
     }
+
+    
 }
