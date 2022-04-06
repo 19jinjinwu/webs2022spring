@@ -76,8 +76,6 @@ body{
     max-height: 99px;
     padding-top: .4vw;
     padding-left: .5vw;
-    filter: invert(1);
-    
 }
 
 .main-nav{
