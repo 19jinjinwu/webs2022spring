@@ -26,5 +26,6 @@ Since I already have a portfolio of my own, I thought it would be more interesti
 |Tuxedo|https://unsplash.com/photos/lwtyu-Ccwvs|CC 0, Luku Muffin|
 |The Whisker (font)|https://www.dafont.com/the-whisker.font| Personal Use, Octotype/Thomas Boucherie|
 |Mensch (font)|https://www.dafont.com/mensch.font| Personal Use, Eko Bimantara|
+|Miso (font)|https://www.fontsquirrel.com/fonts/miso|https://www.fontsquirrel.com/license/Miso|
 
 Inspiration: nekocatcafe.com
